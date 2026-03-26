@@ -16,25 +16,3 @@ spring:
 
 server:
   port: 9000
-
-#spring:
-#  application:
-#    name: Config-Server
-#
-#  cloud:
-#    config:
-#      server:
-#        git:
-#          uri: https://github.com/Kaif-Zaki/Capstone-Project-Configurations.git
-#          search-paths: platform,services
-#        native:
-#          search-locations:
-#            - classpath:/configurations
-#            - classpath:/configurations/platform
-#            - classpath:/configurations/services
-#
-#server:
-#  port: 9000
-
-#application.yaml file
-#in src/main/resources folder inside this folder we have configurations folder which has platform and services folders and inside these folders we have yaml files for each service and platform configuration
